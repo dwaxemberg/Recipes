@@ -11,7 +11,7 @@ namespace Recipes
 {
     public partial class MainForm : Form
     {
-        Database recipeDB = new Database("root", "redwings", "recipes");
+        Database recipeDB = new Database("root", "password", "recipes");
         public MainForm()
         {
             InitializeComponent();
