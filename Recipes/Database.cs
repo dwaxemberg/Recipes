@@ -10,7 +10,6 @@ namespace Recipes
     {
         MySqlConnection con;
 
-        //Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;
         public Database(string username, string password, string database)
         {
             String connectionString = "SERVER=localhost;" +
